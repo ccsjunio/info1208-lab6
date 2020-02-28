@@ -6,9 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitd56d117e9820e305d7b5c6ae1aec934a
 {
+    public static $prefixLengthsPsr4 = array (
+        'l' => 
+        array (
+            'lintrue\\composer\\' => 17,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'lintrue\\composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lintrue/static-installer/src',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd56d117e9820e305d7b5c6ae1aec934a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd56d117e9820e305d7b5c6ae1aec934a::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

@@ -4,8 +4,129 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d786c4a87471fc49ac50a18ec3678cbe",
+    "content-hash": "af2facc863f115d9410b4702b1a17dc2",
     "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "901828b7968b18319e377dc23d466f28426ee083"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/901828b7968b18319e377dc23d466f28426ee083",
+                "reference": "901828b7968b18319e377dc23d466f28426ee083",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2019-10-23T05:15:13+00:00"
+        },
+        {
+            "name": "lintrue/jquery",
+            "version": "v2.2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lintrue/jquery.git",
+                "reference": "209ca1f810147c607bbe75d154ce22c5dd1d9d31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lintrue/jquery/zipball/209ca1f810147c607bbe75d154ce22c5dd1d9d31",
+                "reference": "209ca1f810147c607bbe75d154ce22c5dd1d9d31",
+                "shasum": ""
+            },
+            "require": {
+                "lintrue/static-installer": "^v1.0"
+            },
+            "type": "lintrue-static",
+            "extra": {
+                "static-path": "public/static/jquery"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lintrue",
+                    "email": "jiamisslin@gmail.com"
+                }
+            ],
+            "description": "deploy jquery/jquery",
+            "keywords": [
+                "JS",
+                "framework",
+                "static",
+                "web"
+            ],
+            "time": "2018-02-13T08:24:49+00:00"
+        },
+        {
+            "name": "lintrue/static-installer",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lintrue/static-installer.git",
+                "reference": "4b2ee7c6f4ace50c7c233659f2a81ecfad2c610d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lintrue/static-installer/zipball/4b2ee7c6f4ace50c7c233659f2a81ecfad2c610d",
+                "reference": "4b2ee7c6f4ace50c7c233659f2a81ecfad2c610d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "lintrue\\composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "lintrue\\composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lintrue",
+                    "email": "jiamisslin@gmail.com"
+                }
+            ],
+            "description": "将静态资源包安装到指定目录",
+            "time": "2017-12-22T15:40:08+00:00"
+        },
         {
             "name": "twbs/bootstrap",
             "version": "v4.4.1",

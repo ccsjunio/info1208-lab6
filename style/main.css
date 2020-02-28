@@ -1,0 +1,31 @@
+.jumbotron{
+    background: url(/img/background545-215.png);
+}
+
+@media only screen and (min-width: 576px){
+    .jumbotron{
+        background: url(/img/background510-279.png);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .jumbotron{
+        background: url(/img/background690-249.png);
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .jumbotron{
+        background: url(/img/background930-249.png);
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .jumbotron{
+        background: url(/img/background1110-249.png);
+    }
+}
+
+
+
+
